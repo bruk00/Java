@@ -56,6 +56,6 @@ public class Human {
     @Override
     public String toString()
     {
-        return "Human "+"firstName'="+firstName+'\''+", lastName='"+lastName+'\''+", position='"+position+'\''+", age="+age+", isWorking="+isWorking+", pet="+pet+", car="+car+'}';
+        return "Human  "+"firstName'="+firstName+'\''+", lastName='"+lastName+'\''+", position='"+position+'\''+", age="+age+", isWorking="+isWorking+", pet="+pet+", car="+car+'}';
     }
 }
