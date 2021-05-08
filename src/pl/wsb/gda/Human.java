@@ -54,7 +54,8 @@ public class Human {
         else System.out.println("Wypłata nie może być ujemna");
     }
     @Override
-    public String toString() {
-        return "Human{"+"firstName='"+firstName+'\''+", lastName='"+lastName+'\''+", position='"+position+'\''+", age="+age+", isWorking="+isWorking+", pet="+pet+", car="+car+'}';
+    public String toString()
+    {
+        return "Human "+"firstName'="+firstName+'\''+", lastName='"+lastName+'\''+", position='"+position+'\''+", age="+age+", isWorking="+isWorking+", pet="+pet+", car="+car+'}';
     }
 }
